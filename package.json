@@ -1,0 +1,29 @@
+{
+  "name": "uno-game-engine",
+  "version": "3.4.1",
+  "description": "This is a game engine for the card game UNO",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "scripts": {
+    "test": "jest --coverage",
+    "testw": "jest --watchAll --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "uno",
+    "game",
+    "game-engine",
+    "card-game",
+    "card"
+  ]
+
+}
