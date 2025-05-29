@@ -1,5 +1,6 @@
 {
-  "name": "@yard001/uno-game-engine",
+  "name": "uno-game-engine",
+  "version": "1.0.0",
   "description": "This is a game engine for the card game UNO",
   "main": "index.js",
   "files": ["index.js", "src/"],
@@ -31,7 +32,7 @@
     "card-game",
     "card"
   ],
-  "version": "1.0.0",
+  
   "author": "zu34",
   "license": "ISC",
   "bugs": {
