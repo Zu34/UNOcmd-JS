@@ -1,12 +1,15 @@
 {
-  "name": "uno-game-engine",
+  "name": "@zu34/uno-game-engine",
   "version": "3.4.1",
   "description": "This is a game engine for the card game UNO",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "directories": {
     "test": "tests"
   },
-  "dependencies": {},
+  
   "devDependencies": {
     "jest": "^29.7.0"
   },
@@ -16,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/Zu34/uno-game-engine.git"
   },
   "keywords": [
     "uno",
@@ -25,5 +28,4 @@
     "card-game",
     "card"
   ]
-
 }
