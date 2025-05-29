@@ -2,6 +2,7 @@
   "name": "@yard001/uno-game-engine",
   "description": "This is a game engine for the card game UNO",
   "main": "index.js",
+  "files": ["index.js", "src/"],
   "publishConfig": {
     "access": "public"
   },
@@ -19,6 +20,10 @@
     "type": "git",
     "url": "git+https://github.com/Zu34/uno-game-engine.git"
   },
+  "bin": {
+  "uno": "./bin/uno.js"
+  },
+
   "keywords": [
     "uno",
     "game",
